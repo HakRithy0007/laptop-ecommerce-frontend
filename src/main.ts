@@ -1,8 +1,18 @@
-import { registerPlugins } from "@/plugins";
-import App from "./App.vue";
 import { createApp } from "vue";
-import "./assets/index.css";
+import "@/assets/styles/index.css";
+import App from "./App.vue";
+import router from "./router";
+import "vuetify/styles";
+import { createVuetify } from "vuetify";
+import * as components from "vuetify/components";
+import * as directives from "vuetify/directives";
+
+const vuetify = createVuetify({
+  components,
+  directives,
+});
 
 const app = createApp(App);
-registerPlugins(app);
+app.use(vuetify);
+app.use(router); // Add this line!
 app.mount("#app");
