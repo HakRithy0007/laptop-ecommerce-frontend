@@ -1,13 +1,13 @@
 <template>
-  <div class="slider-container w-full h-[400px]">
+  <div class="slider-container w-full h-[400px] px-6 rounded-lg">
     <!-- Hero Swiper with full height -->
     <Swiper :slides-per-view="1" :space-between="0" :autoplay="{
       delay: 3000,
       disableOnInteraction: false,
     }" :pagination="{
-        clickable: true,
-        dynamicBullets: true,
-      }" :navigation="true" :modules="modules" class="hero-swiper w-full h-full" :loop="true">
+      clickable: true,
+      dynamicBullets: true,
+    }" :navigation="true" :modules="modules" class="hero-swiper w-full h-full" :loop="true">
       <SwiperSlide v-for="slide in heroSlides" :key="slide.id" class="relative">
         <div class="slide-content w-full h-full relative overflow-hidden">
           <img :src="slide.image" :alt="slide.title" class="w-full h-full object-cover" />

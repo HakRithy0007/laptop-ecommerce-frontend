@@ -2,7 +2,7 @@
     <div class="w-full h-full ">
         <div class="coming-soon w-full h-[60px] flex justify-between items-center px-6">
             <div class="left">
-                <span class="text-[1.5rem] font-poppins font-bold">Coming Soon</span>
+                <span class="text-[1.5rem] font-poppins font-bold">New Arrival</span>
             </div>
             <div class="right">
                 <v-btn class="!w-[100px] !h-[30px] !bg-orange-500 !text-white !text-[0.7rem]">Load more</v-btn>
@@ -14,8 +14,10 @@
                 :pagination="{ clickable: true }" :navigation="true" class="mySwiper">
                 <swiper-slide v-for="slide in slides" :key="slide.id">
                     <div class="slide-content">
-                        <v-chip class="!w-[120px] !min-w-[120px] !h-[40px] !absolute !text-white !rounded-md">
-                            <img src="/src/assets/images/coming_soon/image.png" alt="" class="w-full h-full">
+                        <!-- <div class="ribbon">COMING SOON</div> -->
+                        <v-chip
+                            class="!w-[80px] !min-w-[50px] !h-[20px] !absolute !bg-red-500 !text-white !top-1 !left-1 !rounded-md">
+                            Coming Soon
                         </v-chip>
 
                         <div class="image-wrapper">

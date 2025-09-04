@@ -15,3 +15,31 @@
   justify-content: center;
   align-items: center;
 }
+
+html, body {
+  overflow: hidden; 
+}
+
+html, body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("@/assets/fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins {
+  font-family: "Poppins";
+  font-weight: 500;
+}

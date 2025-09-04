@@ -13,6 +13,7 @@ declare module 'vue' {
     FeatureProduct: typeof import('./components/FeatureProduct.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     MenuList: typeof import('./components/MenuList.vue')['default']
+    NewArrival: typeof import('./components/NewArrival.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Slider: typeof import('./components/Slider.vue')['default']

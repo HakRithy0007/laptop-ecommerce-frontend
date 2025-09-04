@@ -10,6 +10,7 @@ import * as directives from "vuetify/directives";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "@/assets/fonts/Poppins-Medium.ttf";
 
 const vuetify = createVuetify({
   components,

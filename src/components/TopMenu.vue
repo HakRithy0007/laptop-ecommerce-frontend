@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-[70px] flex justify-between items-center px-4 relative">
+    <div class="w-full h-[70px] flex justify-between items-center px-4 relative bg-[#e8ebf8]">
 
         <!-- Left Content -->
         <div class="left-content w-1/2 sm:w-[85%] h-full flex items-center gap-2">
