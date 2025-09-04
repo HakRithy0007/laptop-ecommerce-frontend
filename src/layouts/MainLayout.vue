@@ -1,5 +1,5 @@
 <template>
-   <div class="whole-content w-full h-full bg-[#cccccc]">
+   <div class="whole-content w-full h-full">
 
       <!-- Top Header -->
       <div class="top-header h-[40px]">
@@ -7,22 +7,22 @@
       </div>
 
       <!-- Top Menu -->
-      <div class="top-menu h-[70px]">
+      <div class="top-menu">
          <TopMenu />
       </div>
 
       <!-- Menu List -->
-      <div class="menu-list h-[60px]">
+      <div class="menu-list">
          <MenuList />
       </div>
 
       <!-- Slider -->
-      <div class="slider h-[400px]">
+      <div class="slider">
          <Slider />
       </div>
 
       <!-- Feature Product-->
-      <div class="feature-product h-[250px]">
+      <div class="feature-product">
          <FeatureProduct />
       </div>
 
@@ -40,5 +40,5 @@ import TopMenu from '@/components/TopMenu.vue';
 import MenuList from '@/components/MenuList.vue';
 import Slider from '@/components/Slider.vue';
 import FeatureProduct from '@/components/FeatureProduct.vue';
-import CommingSoon from '@/components/CommingSoon.vue';
+import CommingSoon from '@/components/ComingSoon.vue';
 </script>

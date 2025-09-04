@@ -1,30 +1,17 @@
 <template>
-  <div class="slider-container w-full h-full">
+  <div class="slider-container w-full h-[400px]">
     <!-- Hero Swiper with full height -->
-    <Swiper
-      :slides-per-view="1"
-      :space-between="0"
-      :autoplay="{
-        delay: 3000,
-        disableOnInteraction: false,
-      }"
-      :pagination="{
+    <Swiper :slides-per-view="1" :space-between="0" :autoplay="{
+      delay: 3000,
+      disableOnInteraction: false,
+    }" :pagination="{
         clickable: true,
         dynamicBullets: true,
-      }"
-      :navigation="true"
-      :modules="modules"
-      class="hero-swiper w-full h-full"
-      :loop="true"
-    >
+      }" :navigation="true" :modules="modules" class="hero-swiper w-full h-full" :loop="true">
       <SwiperSlide v-for="slide in heroSlides" :key="slide.id" class="relative">
         <div class="slide-content w-full h-full relative overflow-hidden">
-          <img 
-            :src="slide.image" 
-            :alt="slide.title" 
-            class="w-full h-full object-cover"
-          />
-          
+          <img :src="slide.image" :alt="slide.title" class="w-full h-full object-cover" />
+
           <div class="absolute inset-0 bg-black bg-opacity-40"></div>
           <div class="absolute inset-0 flex items-center justify-center">
             <div class="text-center text-white px-6 max-w-4xl">
@@ -34,10 +21,9 @@
               <p class="text-lg md:text-xl mb-8 opacity-90">
                 {{ slide.description }}
               </p>
-              <button 
+              <button
                 class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors duration-300"
-                @click="handleCTA(slide.id)"
-              >
+                @click="handleCTA(slide.id)">
                 {{ slide.buttonText }}
               </button>
             </div>
@@ -163,7 +149,7 @@ console.log('Hero slides data:', heroSlides.value)
   .slide-content h1 {
     font-size: 2rem !important;
   }
-  
+
   .slide-content p {
     font-size: 1rem !important;
   }
