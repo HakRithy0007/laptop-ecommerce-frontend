@@ -18,12 +18,17 @@
 
       <!-- Slider -->
       <div class="slider h-[400px]">
-         <!-- <Slider /> -->
+         <Slider />
       </div>
 
       <!-- Feature Product-->
       <div class="feature-product h-[250px]">
          <FeatureProduct />
+      </div>
+
+      <!-- Comming Soon -->
+      <div class="comming-soon">
+         <CommingSoon />
       </div>
 
    </div>
@@ -35,4 +40,5 @@ import TopMenu from '@/components/TopMenu.vue';
 import MenuList from '@/components/MenuList.vue';
 import Slider from '@/components/Slider.vue';
 import FeatureProduct from '@/components/FeatureProduct.vue';
+import CommingSoon from '@/components/CommingSoon.vue';
 </script>
