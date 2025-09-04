@@ -1,25 +1,41 @@
 <template>
-    <div class="swiper-container w-full relative">
-        <swiper :modules="[Pagination, Navigation]" :slides-per-view="6" :space-between="12"
-            :pagination="{ clickable: true }" :navigation="true" class="mySwiper">
-            <swiper-slide v-for="slide in slides" :key="slide.id">
-                <div class="slide-content">
-                    <div class="ribbon">COMING SOON</div>
+    <div class="w-full h-full">
+        <div class="coming-soon w-full h-[60px] flex justify-between items-center px-6">
+            <div class="left">
+                <span class="text-[1.5rem]">Coming Soon</span>
+            </div>
+            <div class="right">
+                <v-btn class="!w-[120px] !bg-orange-500 !text-white">Load more</v-btn>
+            </div>
+        </div>
+        <v-divider></v-divider>
+        <div class="swiper-container w-full relative mt-6">
+            <swiper :modules="[Pagination, Navigation]" :slides-per-view="6" :space-between="12"
+                :pagination="{ clickable: true }" :navigation="true" class="mySwiper">
+                <swiper-slide v-for="slide in slides" :key="slide.id">
+                    <div class="slide-content">
+                        <!-- <div class="ribbon">COMING SOON</div> -->
+                        <v-chip
+                            class="!w-[80px] !min-w-[50px] !h-[20px] !absolute !bg-red-500 !text-white !top-1 !left-1 !rounded-md">
+                            Coming Soon
+                        </v-chip>
 
-                    <div class="image-wrapper">
-                        <img :src="slide.image" alt="product" />
-                    </div>
+                        <div class="image-wrapper">
+                            <img :src="slide.image" alt="product" />
+                        </div>
 
-                    <div class="details">
-                        <p class="price">${{ slide.price }}</p>
-                        <p class="code">{{ slide.code }}</p>
-                        <p class="name">{{ slide.title }}</p>
-                        <p class="desc">{{ slide.content }}</p>
+                        <div class="details">
+                            <p class="price">${{ slide.price }}</p>
+                            <p class="code">{{ slide.code }}</p>
+                            <p class="name">{{ slide.title }}</p>
+                            <p class="desc">{{ slide.content }}</p>
+                        </div>
                     </div>
-                </div>
-            </swiper-slide>
-        </swiper>
+                </swiper-slide>
+            </swiper>
+        </div>
     </div>
+
 </template>
 
 <script setup lang="ts">
@@ -66,19 +82,6 @@ const slides = ref<SlideData[]>([
     flex-direction: column;
     height: 100%;
     overflow: hidden;
-}
-
-.ribbon {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    background: #e53935;
-    color: #fff;
-    padding: 4px 8px;
-    font-weight: 700;
-    font-size: 10px;
-    border-radius: 20px;
-    z-index: 5;
 }
 
 .image-wrapper {

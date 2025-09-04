@@ -17,7 +17,7 @@
                     <Icon icon="mdi:truck" width="24" height="24" />
                 </span>
                 <span class="tele-phone">
-                    Delivery within 2hours
+                    Delivery 24 provinces
                 </span>
             </div>
         </div>

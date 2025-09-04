@@ -46,16 +46,21 @@
                 <v-btn class="!w-[40px] !h-[40px] !min-w-[40px] !px-0 !py-0 flex items-center justify-center"
                     rounded="lg" color="blue">
                     <Icon icon="iconamoon:shopping-card" width="30" height="30" />
+                    <v-tooltip activator="parent" location="bottom">Cart</v-tooltip>
                 </v-btn>
+
+
 
                 <v-btn class="!w-[40px] !h-[40px] !min-w-[40px] !px-0 !py-0 flex items-center justify-center"
                     rounded="lg" color="blue">
                     <Icon icon="mdi:heart-outline" width="30" height="30" />
+                    <v-tooltip activator="parent" location="bottom">Whislist</v-tooltip>
                 </v-btn>
 
                 <v-btn class="!w-[40px] !h-[40px] !min-w-[40px] !px-0 !py-0 flex items-center justify-center"
                     rounded="lg" color="blue">
                     <Icon icon="mdi:user-outline" width="30" height="30" />
+                    <v-tooltip activator="parent" location="bottom">Account</v-tooltip>
                 </v-btn>
             </div>
         </div>
