@@ -8,16 +8,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    ComingSoon: typeof import('./components/ComingSoon.vue')['default']
-    CommingSoon: typeof import('./components/ComingSoon.vue')['default']
-    FeatureProduct: typeof import('./components/FeatureProduct.vue')['default']
+    ComingSoon: typeof import('./components/zzz/ComingSoon.vue')['default']
+    CommingSoon: typeof import('./components/zzz/ComingSoon.vue')['default']
+    FeatureProduct: typeof import('./components/zzz/FeatureProduct.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     MenuList: typeof import('./components/MenuList.vue')['default']
     NewArrival: typeof import('./components/NewArrival.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Slider: typeof import('./components/Slider.vue')['default']
-    TopHeader: typeof import('./components/TopHeader.vue')['default']
+    Slider: typeof import('./components/zzz/Slider.vue')['default']
+    TopHeader: typeof import('./components/zzz/TopHeader.vue')['default']
     TopMenu: typeof import('./components/TopMenu.vue')['default']
   }
 }

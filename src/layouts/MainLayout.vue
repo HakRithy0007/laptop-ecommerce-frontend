@@ -1,13 +1,13 @@
 <template>
-   <div class="whole-content w-full h-full bg-[#e5e7ee]">
+   <div class="whole-content w-full h-full">
 
       <!-- Top Header -->
-      <div class="top-header h-[40px]">
+      <!-- <div class="top-header">
          <TopHeader />
-      </div>
+      </div> -->
 
       <!-- Top Menu -->
-      <div class="top-menu">
+      <div class="top-menu px-4">
          <TopMenu />
       </div>
 
@@ -17,22 +17,22 @@
       </div>
 
       <!-- Slider -->
-      <div class="slider">
+      <!-- <div class="slider">
          <Slider />
-      </div>
+      </div> -->
 
       <!-- Feature Product-->
-      <div class="feature-product">
+      <!-- <div class="feature-product">
          <FeatureProduct />
-      </div>
+      </div> -->
 
       <!-- Comming Soon -->
-      <div class="comming-soon bg-white h-[400px] mb-4">
+      <!-- <div class="comming-soon bg-white h-[400px] mb-4">
          <CommingSoon />
-      </div>
+      </div> -->
 
       <!-- New Arrival -->
-      <div class="new-arrival bg-white h-[400px] mb-4">
+      <div class="new-arrival bg-white h-[400px] px-4 my-4">
          <NewArrival />
       </div>
 
@@ -41,11 +41,11 @@
 </template>
 
 <script setup lang="ts">
-import TopHeader from '@/components/TopHeader.vue';
+import TopHeader from '@/components/zzz/TopHeader.vue';
 import TopMenu from '@/components/TopMenu.vue';
 import MenuList from '@/components/MenuList.vue';
-import Slider from '@/components/Slider.vue';
-import FeatureProduct from '@/components/FeatureProduct.vue';
-import CommingSoon from '@/components/ComingSoon.vue';
+import Slider from '@/components/zzz/Slider.vue';
+import FeatureProduct from '@/components/zzz/FeatureProduct.vue';
+import CommingSoon from '@/components/zzz/ComingSoon.vue';
 import NewArrival from '@/components/NewArrival.vue';
 </script>

@@ -12,6 +12,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
+    "@fontsource/poppins": "^5.2.6",
     "@fontsource/roboto": "5.2.6",
     "@mdi/font": "7.4.47",
     "@tailwindcss/vite": "^4.1.12",
