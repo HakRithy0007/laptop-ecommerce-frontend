@@ -13,10 +13,10 @@ declare module 'vue' {
     FeatureProduct: typeof import('./components/zzz/FeatureProduct.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     MenuList: typeof import('./components/MenuList.vue')['default']
-    NewArrival: typeof import('./components/NewArrival.vue')['default']
+    NewArrival: typeof import('./components/zzz/NewArrival.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Slider: typeof import('./components/zzz/Slider.vue')['default']
+    Slider: typeof import('./components/Slider.vue')['default']
     TopHeader: typeof import('./components/zzz/TopHeader.vue')['default']
     TopMenu: typeof import('./components/TopMenu.vue')['default']
   }

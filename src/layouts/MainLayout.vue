@@ -17,9 +17,9 @@
       </div>
 
       <!-- Slider -->
-      <!-- <div class="slider">
+      <div class="slider">
          <Slider />
-      </div> -->
+      </div>
 
       <!-- Feature Product-->
       <!-- <div class="feature-product">
@@ -32,9 +32,9 @@
       </div> -->
 
       <!-- New Arrival -->
-      <div class="new-arrival bg-white h-[400px] px-4 my-4">
+      <!-- <div class="new-arrival bg-white h-[400px] px-4 my-4">
          <NewArrival />
-      </div>
+      </div> -->
 
 
    </div>
@@ -44,8 +44,8 @@
 import TopHeader from '@/components/zzz/TopHeader.vue';
 import TopMenu from '@/components/TopMenu.vue';
 import MenuList from '@/components/MenuList.vue';
-import Slider from '@/components/zzz/Slider.vue';
+import Slider from '@/components/Slider.vue';
 import FeatureProduct from '@/components/zzz/FeatureProduct.vue';
 import CommingSoon from '@/components/zzz/ComingSoon.vue';
-import NewArrival from '@/components/NewArrival.vue';
+import NewArrival from '@/components/zzz/NewArrival.vue';
 </script>
