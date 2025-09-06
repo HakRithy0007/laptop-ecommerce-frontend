@@ -1,5 +1,5 @@
 <template>
-  <div class="slider-container w-full h-[400px] px-6 rounded-lg">
+  <div class="slider-container w-full h-[400px] rounded-lg">
     <!-- Hero Swiper with full height -->
     <Swiper :slides-per-view="1" :space-between="0" :autoplay="{
       delay: 5000,

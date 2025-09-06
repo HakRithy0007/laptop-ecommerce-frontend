@@ -6,25 +6,33 @@
          <TopHeader />
       </div> -->
 
+
+
       <!-- Top Menu -->
       <div class="top-menu px-4">
          <TopMenu />
       </div>
 
       <!-- Menu List -->
-      <div class="menu-list mb-4 shadow-md">
+      <div class="menu-list mb-2 shadow-md">
          <MenuList />
       </div>
 
+      <!-- Anouncement -->
+      <div class="anouncement mb-2">
+         <Anouncement />
+      </div>
+
       <!-- Slider -->
-      <div class="slider">
+      <div class="slider px-4">
          <Slider />
       </div>
 
+
       <!-- Feature Product-->
-      <!-- <div class="feature-product">
+      <div class="feature-product px-4">
          <FeatureProduct />
-      </div> -->
+      </div>
 
       <!-- Comming Soon -->
       <!-- <div class="comming-soon bg-white h-[400px] mb-4">
@@ -46,6 +54,7 @@ import TopMenu from '@/components/TopMenu.vue';
 import MenuList from '@/components/MenuList.vue';
 import Slider from '@/components/Slider.vue';
 import FeatureProduct from '@/components/zzz/FeatureProduct.vue';
+import Anouncement from '@/components/Anouncement.vue';
 import CommingSoon from '@/components/zzz/ComingSoon.vue';
 import NewArrival from '@/components/zzz/NewArrival.vue';
 </script>
