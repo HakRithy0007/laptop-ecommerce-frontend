@@ -9,12 +9,14 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Anouncement: typeof import('./components/Anouncement.vue')['default']
-    ComingSoon: typeof import('./components/zzz/ComingSoon.vue')['default']
-    CommingSoon: typeof import('./components/zzz/ComingSoon.vue')['default']
-    FeatureProduct: typeof import('./components/zzz/FeatureProduct.vue')['default']
+    Branding: typeof import('./components/Branding.vue')['default']
+    ComingSoon: typeof import('./components/ComingSoon.vue')['default']
+    CommingSoon: typeof import('./components/ComingSoon.vue')['default']
+    FeatureProduct: typeof import('./components/Promotion.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     MenuList: typeof import('./components/MenuList.vue')['default']
     NewArrival: typeof import('./components/zzz/NewArrival.vue')['default']
+    Promotion: typeof import('./components/Promotion.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Slider: typeof import('./components/Slider.vue')['default']

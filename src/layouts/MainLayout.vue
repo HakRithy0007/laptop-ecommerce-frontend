@@ -1,5 +1,5 @@
 <template>
-   <div class="whole-content w-full h-full">
+   <div class="whole-content w-full h-full bg-gray-200 ">
 
       <!-- Top Header -->
       <!-- <div class="top-header">
@@ -7,9 +7,8 @@
       </div> -->
 
 
-
       <!-- Top Menu -->
-      <div class="top-menu px-4">
+      <div class="top-menu">
          <TopMenu />
       </div>
 
@@ -18,26 +17,25 @@
          <MenuList />
       </div>
 
-      <!-- Anouncement -->
-      <div class="anouncement mb-2">
-         <Anouncement />
-      </div>
-
       <!-- Slider -->
       <div class="slider px-4">
          <Slider />
       </div>
 
+      <!-- Anouncement -->
+      <div class="anouncement mb-2 px-4">
+         <Anouncement />
+      </div>
 
-      <!-- Feature Product-->
-      <div class="feature-product px-4">
-         <FeatureProduct />
+      <!-- Promotion Product-->
+      <div class="promotion-product px-4">
+         <Promotion />
       </div>
 
       <!-- Comming Soon -->
-      <!-- <div class="comming-soon bg-white h-[400px] mb-4">
+      <div class="comming-soon mb-2 px-4">
          <CommingSoon />
-      </div> -->
+      </div>
 
       <!-- New Arrival -->
       <!-- <div class="new-arrival bg-white h-[400px] px-4 my-4">
@@ -53,8 +51,8 @@ import TopHeader from '@/components/zzz/TopHeader.vue';
 import TopMenu from '@/components/TopMenu.vue';
 import MenuList from '@/components/MenuList.vue';
 import Slider from '@/components/Slider.vue';
-import FeatureProduct from '@/components/zzz/FeatureProduct.vue';
+import Promotion from '@/components/Promotion.vue';
 import Anouncement from '@/components/Anouncement.vue';
-import CommingSoon from '@/components/zzz/ComingSoon.vue';
+import CommingSoon from '@/components/ComingSoon.vue';
 import NewArrival from '@/components/zzz/NewArrival.vue';
 </script>
