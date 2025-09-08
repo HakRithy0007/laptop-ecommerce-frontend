@@ -1,5 +1,5 @@
 <template>
-    <div class=" flex items-center h-8 p-2 overflow-hidden mt-4 rounded-md shadow-xl">
+    <div class=" flex items-center h-8 p-2 overflow-hidden mt-1 rounded-md shadow-xl">
         <div class="marquee-container">
             <div class="marquee-text text-[#000000c5] text-[1rem] font-noto tracking-wide font-hanuman">
                 Founded in 1996, PTC Computer has rapidly grown to become a leading provider of IT Product and Solution

@@ -13,7 +13,7 @@
       </div>
 
       <!-- Menu List -->
-      <div class="menu-list mb-2 shadow-md">
+      <div class="menu-list mb-4 shadow-md">
          <MenuList />
       </div>
 
@@ -23,7 +23,7 @@
       </div>
 
       <!-- Anouncement -->
-      <div class="anouncement mb-2 px-4">
+      <div class="anouncement px-4">
          <Anouncement />
       </div>
 
