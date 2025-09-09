@@ -20,7 +20,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Slider: typeof import('./components/Slider.vue')['default']
-    TopHeader: typeof import('./components/zzz/TopHeader.vue')['default']
+    TopHeader: typeof import('./components/TopHeader.vue')['default']
     TopMenu: typeof import('./components/TopMenu.vue')['default']
   }
 }
