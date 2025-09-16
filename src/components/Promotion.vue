@@ -4,7 +4,6 @@
       <div v-for="(feature, index) in features" :key="index"
         class="w-full h-full flex justify-center items-center rounded-lg shadow-xl cursor-pointer transform transition duration-300 hover:scale-101">
         <span>
-          
           <img :src="feature.img" class="w-full h-full rounded-lg" />
         </span>
       </div>
